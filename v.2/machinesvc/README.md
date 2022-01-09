@@ -30,7 +30,7 @@ Feature: Calculate production cost
     And the client receives productionCost 28.25  
 ```
 ## Service
-URL : /v1/widget
+URL : POST /v2/widget
 ### Sample request
 ```
 {
