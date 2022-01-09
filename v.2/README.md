@@ -1,9 +1,3 @@
-# Widget Application Service v2
-
-### Reference Documentation
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.6.2/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.6.2/maven-plugin/reference/html/#build-image)
-
+# Widget Application Service v1
+Below is summary spesification for archicture transision version 2
+![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/v.2/image/v2.jpeg?raw=true)
