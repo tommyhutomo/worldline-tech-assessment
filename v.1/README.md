@@ -30,21 +30,21 @@ Feature: Calculate production cost
     And the client receives productionCost 28.25  
 ```
 ## Service
-	URL : /v1/widget
-	Sample request
+URL : /v1/widget
+### Sample request
 ```
 {
     "engineType":"DIESEL",
     "quantity":10
 }  
 ```
-	Sample success response
+### Sample success response
 ```
 {
     "productionCost": 24.0
 }	
 ```
-	Sample expected error response
+### Sample expected error response
 ```	
 {
     "timestamp": "2022-01-09T11:34:08.813+00:00",
@@ -55,23 +55,25 @@ Feature: Calculate production cost
     "path": "/v2/engine/stop"
 }	
 ```
-	Other url
-	health check : http://localhost:8080/actuator/health
-    swagger : http://localhost:8080/v2/api-docs
 
-## Commands
+### Other url
+health check : http://localhost:8080/actuator/health
+swagger : http://localhost:8080/v2/api-docs
+
+### Commands
 ```
-	Generate acceptance test first time : mvn clean test
-	Generate acceptance test report : mvn verify -DskipTests
-	Run : mvn spring-boot:run
-	
-	note 
-	acceptance test report will be generated at :
-	[project dir]\target\cucumber-report-html\cucumber-html-reports
+Generate acceptance test first time : mvn clean test
+Generate acceptance test report : mvn verify -DskipTests
+Run : mvn spring-boot:run
+
+note 
+acceptance test report will be generated at :
+[project dir]\target\cucumber-report-html\cucumber-html-reports
 ```
-## Acceptance Test result
+
+### Acceptance Test result
 	Feature overview
-	![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/image/v.1/stages.jpeg?raw=true)
+	![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/v.1/image/feature%20overview.PNG?raw=true)
 	
 	Feature report
-	![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/image/v.1/stages.jpeg?raw=true)
+	![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/v.1/image/Feature%20Report.PNG)
