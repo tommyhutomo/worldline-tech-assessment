@@ -15,6 +15,7 @@ Derived from the assessment given. Assuming its a project with software, infrast
 ```
 ### Problem & Solution space definition
 Problem and solution are mapped like follow
+
 ![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/image/SolutionSpace.jpeg?raw=true)
 
 ### Implementation space definition
