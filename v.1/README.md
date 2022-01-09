@@ -1,7 +1,8 @@
 # Widget Application Service v1
 Below is the spesification for archicture transision version 1
 
-##Feature & Scenario
+## Feature & Scenario
+
 ```
 Feature: Calculate production cost
   Scenario: client makes call to POST /widget using fueltype PETROL
@@ -28,7 +29,7 @@ Feature: Calculate production cost
     Then the client receives status code of 200
     And the client receives productionCost 28.25  
 ```
-##Service
+## Service
 	URL : /v1/widget
 	Sample request
 ```
@@ -58,7 +59,7 @@ Feature: Calculate production cost
 	health check : http://localhost:8080/actuator/health
     swagger : http://localhost:8080/v2/api-docs
 
-##Commands
+## Commands
 ```
 	Generate acceptance test first time : mvn clean test
 	Generate acceptance test report : mvn verify -DskipTests
@@ -68,7 +69,7 @@ Feature: Calculate production cost
 	acceptance test report will be generated at :
 	[project dir]\target\cucumber-report-html\cucumber-html-reports
 ```
-##Acceptance Test result
+## Acceptance Test result
 	Feature overview
 	![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/image/v.1/stages.jpeg?raw=true)
 	
