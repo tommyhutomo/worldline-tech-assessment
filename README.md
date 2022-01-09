@@ -1,6 +1,6 @@
 # Worldline Tech Assesment
 
-Derived from the assessment given. Assuming its a real project with software, infrastructure listed as requirement
+Derived from the assessment given. Assuming its a project with software, infrastructure listed as deliverable
 
 ## Software Architecture
 ### Vision/project goal statement
