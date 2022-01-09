@@ -73,7 +73,7 @@ acceptance test report will be generated at :
 
 ### Acceptance Test result
 #### Feature overview
-![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/v.2/utilsssvc/image/featureOverview.PNG?raw=true)
+![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/v.2/utilssvc/image/featureOverview.PNG?raw=true)
 	
 #### Feature report
 ![alt text](https://github.com/tommyhutomo/worldline-tech-assessment/blob/master/v.2/utilssvc/image/featureReport.PNG?raw=true)
