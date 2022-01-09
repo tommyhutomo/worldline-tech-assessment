@@ -38,7 +38,7 @@ public class AcceptanceTest {
 
         restTemplate.setErrorHandler(errorHandler);
         latestResponse = restTemplate
-          .execute("http://localhost:8080/widget", HttpMethod.POST, requestCallback, response -> {
+          .execute("http://localhost:8080/v1/widget", HttpMethod.POST, requestCallback, response -> {
               if (errorHandler.hadError) {
                   return (errorHandler.getResults());
               } else {
